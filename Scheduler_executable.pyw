@@ -147,8 +147,8 @@ canvas.place(relx = 0,rely=0.05,relwidth=1,relheight=1)
 credits_display = tk.Label(root,textvariable = credits_tracker,font=('ComicSansBold',12) )
 credits_display.place(rely=0,relx=0.14)
 
-urosario_fetch = tk.Button(root,text='Add from Database...',command= lambda: UrosarioPopUp(canvas,classdict,reference_channel) )
-urosario_fetch.place(rely=0,relx=0.8,anchor='n')
+# urosario_fetch = tk.Button(root,text='Add from Database...',command= lambda: UrosarioPopUp(canvas,classdict,reference_channel) )
+# urosario_fetch.place(rely=0,relx=0.8,anchor='n')
 
 label = tk.Label(root,text='Total Credits:',font=('ComicSans',12))
 label.place(rely=0,relx=0)
